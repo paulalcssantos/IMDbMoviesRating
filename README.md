@@ -116,7 +116,7 @@ Execute as consultas listadas para gerar arquivos CSV com os resultados.
 - Importe os arquivos CSV gerados para o Power BI.
 - Crie visualizações conforme descrito na seção de visualizações.
 
-### **Insights Obtidos**
+## **Insights Obtidos**
 
 - O filme com que Fernanda Torres ganhou o Globo de Ouro ("I'm Still Here") é o filme do Brasil mais bem avaliado pelo público e foi o segundo filme mais bem avaliado de 2024 no mundo, também de acordo com o público.
 - Os dois filmes onde Fernanda Torres participou e que tiveram avaliações no IMDb, em ambos, ela contracenou com sua mãe, a atriz Fernanda Montenegro.
