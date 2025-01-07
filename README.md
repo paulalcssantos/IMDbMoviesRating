@@ -6,6 +6,24 @@ Este projeto utiliza dados de filmes do IMDb para realizar análises exploratór
 ## **Objetivo**
 O objetivo deste projeto é explorar o dataset do IMDb, destacando filmes de 2024, cinema brasileiro em português e análises envolvendo as atrizes renomadas Fernanda Torres e Fernanda Montenegro.
 
+## **Dataset Utilizado**
+
+Os dados foram extraídos do [IMDb Movies Dataset no Kaggle](https://www.kaggle.com/datasets/hetbabariya/imdb-movies-data-collection-5000-records/data), que contém informações detalhadas sobre mais de 5000 filmes, incluindo:
+
+- **Title:** Nome do filme.
+- **Average Rating:** Avaliação média no IMDb.
+- **Director:** Nome(s) do(s) diretor(es).
+- **Writer:** Nome(s) do(s) roteirista(s).
+- **Metascore:** Pontuação dos críticos (alguns dados ausentes).
+- **Cast:** Principais atores.
+- **Release Date:** Data de lançamento do filme.
+- **País de Origem:** País(es) de produção.
+- **Country of Origin:** Idiomas utilizados no filme.
+- **Budget:** Orçamento de produção (alguns valores não numéricos).
+- **Worldwide Gross:** Receita total mundial (com valores ausentes).
+- **Runtime:** Tempo de execução do filme em minutos.
+
+
 ## **Tecnologias Utilizadas**
 - **SQL**: Para consultas e extração de dados do dataset.
 - **Power BI**: Para criar visualizações interativas.
