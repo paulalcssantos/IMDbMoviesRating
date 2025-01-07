@@ -17,8 +17,8 @@ Os dados foram extraídos do [IMDb Movies Dataset no Kaggle](https://www.kaggle.
 - **Metascore:** Pontuação dos críticos (alguns dados ausentes).
 - **Cast:** Principais atores.
 - **Release Date:** Data de lançamento do filme.
-- **País de Origem:** País(es) de produção.
-- **Country of Origin:** Idiomas utilizados no filme.
+- **Country of Origin:** País(es) de produção.
+- **Languages:** Idiomas utilizados no filme.
 - **Budget:** Orçamento de produção (alguns valores não numéricos).
 - **Worldwide Gross:** Receita total mundial (com valores ausentes).
 - **Runtime:** Tempo de execução do filme em minutos.
