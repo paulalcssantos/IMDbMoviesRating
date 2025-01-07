@@ -1,5 +1,7 @@
 # IMDb Movies Rating Analysis
 
+![IMDb Movies Rating Analysis](https://github.com/user-attachments/assets/6a6aaf38-2dd7-4f63-b182-b8b9ed2a8885)
+
 ## **Visão Geral**
 Este projeto utiliza dados de filmes do IMDb para realizar análises exploratórias e criar visualizações interativas no Power BI. As análises incluem métricas como avaliações de filmes, principais diretores, e foco no cinema brasileiro e em atrizes específicas.
 
