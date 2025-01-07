@@ -83,7 +83,7 @@ As seguintes consultas SQL foram utilizadas para extrair os dados:
 ## **Visualizações Criadas no Power BI**
 
 1. **Top 10 Best-Rated Brazilian Movies of All Time:**
-   - Gráfico de bolhas com `Runtime` no eixo X, `Rating` no eixo Y e tamanho representando lucro ou orçamento (se aplicável).
+   - Gráfico de barras verticais com `Title` no eixo X, `Rating` no eixo Y.
     
 2. **Top 10 Most Rated Movies by the Audience in 2024:**
    - Gráfico de barras verticais com títulos no eixo X e avaliações no eixo Y.
