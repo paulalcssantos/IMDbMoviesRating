@@ -1,6 +1,6 @@
 # IMDb Movies Rating Analysis
 
-![IMDb Movies Rating Analysis](https://github.com/user-attachments/assets/473a6b50-9894-4eec-a558-1ee6fe48bad2)
+![IMDb Movies Rating Analysis](https://github.com/user-attachments/assets/200063ae-f835-441f-90a9-c9786da5b8a3)
 
 ## **Visão Geral**
 Este projeto utiliza dados de filmes do IMDb para realizar análises exploratórias e criar visualizações interativas no Power BI. As análises incluem métricas como avaliações de filmes, principais diretores, e foco no cinema brasileiro e em atrizes específicas.
@@ -49,28 +49,28 @@ As seguintes consultas SQL foram utilizadas para extrair os dados:
    ORDER BY Rating DESC;
    ```
 
-3. **Filmes com Fernanda Torres:**
+3. **Melhores Filmes com Fernanda Torres:**
    ```sql
    SELECT DISTINCT Title, Date, Average_Rating / 10 AS Rating, Director, Cast
    FROM DBO.IMDB_MOVIES
    WHERE Cast LIKE '%FERNANDA TORRES%';
    ```
 
-4. **Filmes com Fernanda Montenegro:**
+4. **Melhores Filmes com Fernanda Montenegro:**
    ```sql
    SELECT DISTINCT Title, Date, Average_Rating / 10 AS Rating, Director, Cast
    FROM DBO.IMDB_MOVIES
    WHERE Cast LIKE '%FERNANDA MONTENEGRO%';
    ```
 
-5. **Filmes com Fernanda Torres e Fernanda Montenegro:**
+5. **Melhores Filmes com Fernanda Torres e Fernanda Montenegro:**
    ```sql
    SELECT Title, Date, Director, Cast
    FROM DBO.IMDB_MOVIES
    WHERE Cast LIKE '%FERNANDA TORRES%' AND Cast LIKE '%FERNANDA MONTENEGRO%';
    ```
 
-6. **Diretores com Mais Filmes em Português:**
+6. **Diretores com Melhores Filmes em Português:**
    ```sql
    SELECT TRIM(value) AS Director, COUNT(Title) AS Total_Filmes
    FROM DBO.IMDB_MOVIES
@@ -88,16 +88,16 @@ As seguintes consultas SQL foram utilizadas para extrair os dados:
 2. **Top 10 Most Rated Movies by the Audience in 2024:**
    - Gráfico de barras verticais com títulos no eixo X e avaliações no eixo Y.
 
-3. **Movies with Fernandas Torres:**
+3. **Best Movies with Fernandas Torres:**
    - Linha do tempo com os títulos e ano dos filmes onde Fernanda Torres atuou e suas avaliações.
 
-4. **Movies with Fernandas Montenegro:**
+4. **Best Movies with Fernandas Montenegro:**
    - Linha do tempo com os títulos e ano dos filmes onde Fernanda Montenegro atuou e suas avaliações.
 
 5. **Movies with Both Fernandas:**
    - Linha do tempo com os títulos e ano dos filmes onde mãe e filha contracenaram juntas.
 
-4. **Directors with the Most Movies in Portuguese:**
+4. **Directors with the Best Movies in Portuguese:**
    - Treemap destacando os diretores mais produtivos.
 
 ## **Como Executar o Projeto**
